@@ -1,18 +1,14 @@
 ### Part1:
-    Let S = it is sunny, C = camping is fun, H = the homework is
-    done, and M = mathematics is easy.
+   let S = it is sunny, C = camping is fun, H = the homework is
+   done, and M = mathematics is easy.
 
-    ( M -> H ) ^ ( S -> C )
-    Mathematics is easy therefore the homework is done and it is sunny therefore camping is fun.
+   ( M -> H ) ^ ( S -> C )
+   Mathematics is easy therefore the homework is done and it is sunny therefore camping is fun.
 
-    “Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
-     (S ^ H) -> (M v C)
+   “Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
+    (S ^ H) -> (M v C)
 
 ### Part 2:
-
-  ```
-  (¬B → ¬A) → ((¬B → A) → B)
-  ```
 
 | A | B | ¬A | ¬B | ¬B -> ¬A | ¬B -> A | ((¬B -> A) -> B | (¬B → ¬A) → ((¬B → A) → B)
 |---|---|--- |--- | -------- | ------- | --------------- |--------------------------- 
@@ -58,23 +54,24 @@ Therefore a traveler loves the city and those who live in the city do not love t
 
 ### Part 5: 
 
-    Assuming: p → (q ∧ r ), s → r , r → p
+   Assuming: p → (q ∧ r ), s → r , r → p
     Prove: s → q.
 
-     |---------|------------
-     |  s      | assumption    
-     |  r      | mpp    
-     |  p      | mpp    
-     |  q ^ r  | mpp   
-     |  q      | truth table
-     | s → q   | steps 1-5
+ |---------|------------
+ |  s      | assumption    
+ |  r      | mpp    
+ |  p      | mpp    
+ |  q ^ r  | mpp   
+ |  q      | truth table
+ | s → q   | steps 1-5
 
 
-    Assuming: ¬(r ∨ s), ¬p → s, p → q. 
-    Prove: q
+ Assuming: ¬(r ∨ s), ¬p → s, p → q. 
+ Prove: q
     
-       |----|------------
-       | ¬s | De morgans  
-       | p  |  mtt       
-       | q  | mpp        
-       | q  | step 1 - 3 
+  |----|------------
+  | ¬s | De morgans  
+  | p  |  mtt       
+  | q  | mpp        
+  | q  | step 1 - 3 
+
