@@ -49,7 +49,7 @@ int main()
  int parentheses_are_valid(string input)
 {
     int parentheses = 0;
-    for ( int i = 0; i < input.size() ; i ++)
+    for ( unsigned long i = 0; i < input.size() ; i ++)
     {
         if (input.at(i) == '(')
         {
