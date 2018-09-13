@@ -28,17 +28,18 @@ TAUTOLOGY
 NEITHER
 
 ### Part 3:
-| why wont you  | y | pleae         |work k thna
-| ------------- | - | ------------- |-------------
-| (p ∧ q) → r   | = |  p → (q → r ) | Given       
+
+
+| (p ∧ q) → r   | = |  p → (q → r ) | Given    
+| ------------- |-- | ------------- |-------------
 | (p ^ q)' v r  | = |  p → (q → r ) | implication 
 | p' v q' v r   | = |  p → (q → r ) | De Morgans  
 | p' v (q → r)  | = |  p → (q → r ) | implication 
 | p → (q → r)   | = |  p → (q → r ) | implication 
 
-| ------------------- |---| ------------- | --------------
+
 | (q → p)∧(r → p)     | = |  (q ∨ r ) → p |  given        
-| (q → p)∧(r → p)     | = |  (q ∨ r ) → p |  given         
+| ------------------- |---| ------------- | --------------     
 | (q' v p) ^ (r' v p) | = |  (q ∨ r ) → p |  implication  
 | p v (q' ^ r')       | = |  (q ∨ r ) → p |  distributive 
 | p v (q ^ r )'       | = |  (q ∨ r ) → p |  De morgans   
@@ -54,9 +55,8 @@ Therefore a traveler loves the city and those who live in the city do not love t
 
 ### Part 5: 
 
-   Assuming: p → (q ∧ r ), s → r , r → p
-    Prove: s → q.
-
+ Assuming: p → (q ∧ r ), s → r , r → p
+ | Prove   | s → q
  | ------- | -----------
  |  s      | assumption    
  |  r      | mpp    
@@ -68,7 +68,7 @@ Therefore a traveler loves the city and those who live in the city do not love t
 
  Assuming: ¬(r ∨ s), ¬p → s, p → q. 
  Prove: q
-    
+  | q  | Prove
   | -- | -----------
   | ¬s | De morgans  
   | p  |  mtt       
