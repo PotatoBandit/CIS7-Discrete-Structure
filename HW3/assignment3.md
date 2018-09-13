@@ -56,6 +56,7 @@ Therefore a traveler loves the city and those who live in the city do not love t
 ### Part 5: 
 
  Assuming: p → (q ∧ r ), s → r , r → p
+ 
  | Prove   | s → q
  | ------- | -----------
  |  s      | assumption    
@@ -67,7 +68,7 @@ Therefore a traveler loves the city and those who live in the city do not love t
 
 
  Assuming: ¬(r ∨ s), ¬p → s, p → q. 
- Prove: q
+ 
   | q  | Prove
   | -- | -----------
   | ¬s | De morgans  
