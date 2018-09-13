@@ -20,7 +20,7 @@
 | T | F | F  | T  | F        | T       |  F              | T
 | F | T | T  | F  | T        | T       |  T              | T
 | F | F | T  | T  | T        | F       |  T              | T
-TAUTOLOGY
+                                                          TAUTOLOGY
 
 
 | A | B | ¬A |  A -> B | B -> ¬A | ((A → B)∧(B → ¬A)) | ((A → B)∧(B → ¬A)) → A
@@ -29,23 +29,23 @@ TAUTOLOGY
 | T | F | F  | F       | T       | F                  | T
 | F | T | T  | T       | T       | T                  | F
 | F | F | T  | T       | T       | T                  | F
-NEITHER
+                                                        NEITHER
 
 ### Part 3:
-  |---------------|---|---------------||------------|
-  | (p ∧ q) → r   | = |  p → (q → r ) | Given       |
-  | (p ^ q)' v r  | = |  p → (q → r ) | implication |
-  | p' v q' v r   | = |  p → (q → r ) | De Morgans  |
-  | p' v (q → r)  | = |  p → (q → r ) | implication |
-  | p → (q → r)   | = |  p → (q → r ) | implication |
+  |---------------|---|---------------|------------
+  | (p ∧ q) → r   | = |  p → (q → r ) | Given       
+  | (p ^ q)' v r  | = |  p → (q → r ) | implication 
+  | p' v q' v r   | = |  p → (q → r ) | De Morgans  
+  | p' v (q → r)  | = |  p → (q → r ) | implication 
+  | p → (q → r)   | = |  p → (q → r ) | implication 
  
- |---------------------|---|---------------|---------------|
- | (q → p)∧(r → p)     | = |  (q ∨ r ) → p |  given        |
- | (q → p)∧(r → p)     | = |  (q ∨ r ) → p |  given        | 
- | (q' v p) ^ (r' v p) | = |  (q ∨ r ) → p |  implication  |
- | p v (q' ^ r')       | = |  (q ∨ r ) → p |  distributive |
- | p v (q ^ r )'       | = |  (q ∨ r ) → p |  De morgans   |
- | (q ^ r) -> p        | = |  (q ∨ r ) → p |  implication  |
+ |---------------------|---|---------------|---------------
+ | (q → p)∧(r → p)     | = |  (q ∨ r ) → p |  given        
+ | (q → p)∧(r → p)     | = |  (q ∨ r ) → p |  given         
+ | (q' v p) ^ (r' v p) | = |  (q ∨ r ) → p |  implication  
+ | p v (q' ^ r')       | = |  (q ∨ r ) → p |  distributive 
+ | p v (q ^ r )'       | = |  (q ∨ r ) → p |  De morgans   
+ | (q ^ r) -> p        | = |  (q ∨ r ) → p |  implication  
 
 ### Part 4:
 Translate into English: ∃x∀y∀z(City(x) ∧ Traveler (y)∧Li ves(z,x)) → (Loves(y,x)∧ ¬Loves(z,x))
@@ -60,7 +60,7 @@ Therefore a traveler loves the city and those who live in the city do not love t
     Assuming: p → (q ∧ r ), s → r , r → p
     Prove: s → q.
 
-     |---------|------------|
+     |---------|------------
      |  s      | assumption    
      |  r      | mpp    
      |  p      | mpp    
@@ -72,11 +72,11 @@ Therefore a traveler loves the city and those who live in the city do not love t
     Assuming: ¬(r ∨ s), ¬p → s, p → q. 
     Prove: q
     
-       |----|------------|
-       | ¬s | De morgans | 
-       | p  |  mtt       |
-       | q  | mpp        |
-       | q  | step 1 - 3 |
+       |----|------------
+       | ¬s | De morgans  
+       | p  |  mtt       
+       | q  | mpp        
+       | q  | step 1 - 3 
      
      
      
