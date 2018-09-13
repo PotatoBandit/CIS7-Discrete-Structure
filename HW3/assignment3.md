@@ -28,9 +28,11 @@ TAUTOLOGY
 | T | T | F  | T       | F       | F                  | T
 | T | F | F  | F       | T       | F                  | T
 | F | T | T  | T       | T       | T                  | F
-| F | F | T  | T       | T       | T                  | FNEITHER
+| F | F | T  | T       | T       | T                  | F
+NEITHER
 
 ### Part 3:
+
 |---------------|---|---------------|------------
 | (p ∧ q) → r   | = |  p → (q → r ) | Given       
 | (p ^ q)' v r  | = |  p → (q → r ) | implication 
@@ -76,11 +78,3 @@ Therefore a traveler loves the city and those who live in the city do not love t
        | p  |  mtt       
        | q  | mpp        
        | q  | step 1 - 3 
-     
-     
-     
-     
-     
-     
-     
-     
