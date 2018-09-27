@@ -1,0 +1,63 @@
+Part 1:
+
+1) Contradiction
+-Show that the square root of 2 is irrational
+--assume square root of 2 is rational
+--definition of rational number: sqaure root 2 = p/k
+--sqaure both sides: 2 = (p/k)^2
+--distribute the power of 2: 2 = p^2/k^2
+--multiplicative property of equality : 2k^2 = p^2
+--p^2/2 is true if p is even. the same can be said for k^2/q. 
+If p and q are even, then they are divisible by 2, whitch means they are not in their lowest form.
+Therefore sqareroot of 2 cannot be rational. 
+
+2) Exhaustion
+If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
+Sqrt(25) = 5 , yes it is a perfect sqaure. the sum of two perfect sqaures doesn't equal 25.
+
+3) Direct Proof
+The sum of two odd integers is even. 
+definition of odd number: 2n+1
+definition of even number is 2m
+(2n+1) + (2n+1) = 2m
+4n + 2 = 2m
+2(2n+1) = 2m
+m = 2n+1
+2m = 2m
+Therefore this is true.
+
+4) Direct Proof
+The sum of an even integer and it's square is even
+definition of even integer: 2n
+2n + (2n)^2 = 2m
+2n + 4n^2 = 2m
+2(n+2n^2) = 2m
+m = n+2n^2
+2m = 2m
+
+5) Contrapostion
+If n squared is odd, then n is odd
+if n is even, then n squared is even
+defintion of even: 2m
+n = 2m
+n^2 = (2m)^2
+n^2 = 4m^2
+n^2 = 2(2m^2)
+k = 2m^2
+n^2 = 2k
+Therefore, if n is even then n^2 is even. Therefor by contropostion if n is odd, then n^2 is odd. 
+
+Part 2:
+
+1)
+Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
+  Base Case: n = 1
+  1(2*1-1) = 1 Base case is true.
+  (4n-3)(2(4n-3)-1)
+  (4n-3)(8n-6-1)
+  (4n-3)(8n-7)
+  32n^2-28n-24n+21
+  32n^2-52n+21
+  
+
+
