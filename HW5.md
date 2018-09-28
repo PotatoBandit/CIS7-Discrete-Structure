@@ -2,8 +2,8 @@
 
 #### 1) Contradiction
 Show that the square root of 2 is irrational
-++assume square root of 2 is rational
-++definition of rational number: sqaure root 2 = p/k
++assume square root of 2 is rational
++definition of rational number: sqaure root 2 = p/k
 ++sqaure both sides: 2 = (p/k)^2
 --distribute the power of 2: 2 = p^2/k^2
 --multiplicative property of equality : 2k^2 = p^2
