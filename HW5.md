@@ -1,10 +1,10 @@
 ### Part 1:
 
 #### 1) Contradiction
--Show that the square root of 2 is irrational
---assume square root of 2 is rational
---definition of rational number: sqaure root 2 = p/k
---sqaure both sides: 2 = (p/k)^2
+Show that the square root of 2 is irrational
+++assume square root of 2 is rational
+++definition of rational number: sqaure root 2 = p/k
+++sqaure both sides: 2 = (p/k)^2
 --distribute the power of 2: 2 = p^2/k^2
 --multiplicative property of equality : 2k^2 = p^2
 --p^2/2 is true if p is even. the same can be said for k^2/q. 
