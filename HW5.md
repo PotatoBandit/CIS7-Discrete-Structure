@@ -1,4 +1,4 @@
-###Part 1:
+### Part 1:
 
 #### 1) Contradiction
 -Show that the square root of 2 is irrational
