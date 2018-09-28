@@ -16,15 +16,15 @@ If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect
 Sqrt(25) = 5 , yes it is a perfect sqaure. the sum of two perfect sqaures doesn't equal 25.
 
 #### 3) Direct Proof
-   The sum of two odd integers is even. 
-   definition of odd number: 2n+1
-   definition of even number is 2m
-   (2n+1) + (2n+1) = 2m
-   4n + 2 = 2m
-   2(2n+1) = 2m
-   m = 2n+1
-   2m = 2m
-   Therefore this is true.
+*The sum of two odd integers is even. 
+*definition of odd number: 2n+1
+*definition of even number is 2m
+(2n+1) + (2n+1) = 2m
+*4n + 2 = 2m
+*2(2n+1) = 2m
+*m = 2n+1
+*2m = 2m
+*therefore this is true.
 
 #### 4) Direct Proof
 The sum of an even integer and it's square is even
