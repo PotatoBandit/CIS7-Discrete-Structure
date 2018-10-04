@@ -3,7 +3,7 @@
    done, and M = mathematics is easy.
 
    ( M -> H ) ^ ( S -> C )
-   Mathematics is easy therefore the homework is done and it is sunny therefore camping is fun.
+   if Mathematics is easy then the homework is done and if it is sunny then camping is fun.
 
    “Mathematics is easy or camping is fun, as long as it is sunny and the homework is done.”
     (S ^ H) -> (M v C)
