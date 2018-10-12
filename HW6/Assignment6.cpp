@@ -6,7 +6,6 @@ using namespace std;
 
 void getValues();
 int GCD(int val1, int val2);
-static int stuff = 0;
 
 int main()
 {
@@ -59,7 +58,6 @@ int main()
 
 int GCD(int num1, int num2)
 {
-        stuff++;
         if (num1 == 0)
         {
             return num2;
